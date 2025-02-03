@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Attributes Explanation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        h2, h3 {
+            color: #fff;
+            background-color: #007bff;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        p, code {
+            font-size: 16px;
+        }
+        pre, code {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: "Courier New", monospace;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        .example {
+            background-color: #e7f3fe;
+            border-left: 4px solid #007bff;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Understanding HTML Attributes</h1>
+
+    <section>
+        <h2>What Are HTML Attributes?</h2>
+        <p>Attributes in HTML represent the <strong>characteristics</strong> and <strong>properties</strong> of a tag. They modify the behavior of an HTML element or provide additional information about the element.</p>
+        <p>Attributes are written inside the opening tag of an element. They typically come in a key-value pair format.</p>
+    </section>
+
+    <section>
+        <h2>Why Use Attributes?</h2>
+        <p>We use attributes to define specific behavior or to style a tag in a described manner. Without attributes, tags would be very generic and not perform as expected for certain tasks.</p>
+    </section>
+
+    <section>
+        <h2>Where Should Attributes Be Written?</h2>
+        <p>Attributes should always be written inside the <strong>opening tag</strong>. If you apply an attribute to a closing tag, it won't work as expected.</p>
+    </section>
+
+    <section>
+        <h2>Examples of HTML Attributes</h2>
+
+        <div class="example">
+            <h3>Absolute Path</h3>
+            <p>The <strong>absolute path</strong> is the full path to a file, starting from the root directory of the file system. It is used to reference files from anywhere in the directory structure.</p>
+            <pre><code>&lt;a href="/images/photo.jpg"&gt;Link to Image&lt;/a&gt;</code></pre>
+        </div>
+
+        <div class="example">
+            <h3>Relative Path</h3>
+            <p>The <strong>relative path</strong> points to a file from the current directory. It's used when the file you are referencing is located in the same directory or subdirectory.</p>
+            <pre><code>&lt;a href="photo.jpg"&gt;Link to Image&lt;/a&gt;</code></pre>
+        </div>
+
+    </section>
+
+</body>
+</html>

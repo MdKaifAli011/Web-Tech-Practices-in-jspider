@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h3 {
+            color: #007bff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Table in HTML</h1>
+    <p>A table is a collection of rows and columns, similar to a spreadsheet. To create a table in HTML, you use the <code>&lt;table&gt;</code> and <code>&lt;/table&gt;</code> tags. You create the rows and columns using specific HTML tags.</p>
+
+    <h3>Basic Tags for Creating Tables</h3>
+    <ul>
+        <li><code>&lt;table&gt;&lt;/table&gt;</code> - Creates the table container.</li>
+        <li><code>&lt;caption&gt;&lt;/caption&gt;</code> - Defines a title or caption for the table.</li>
+        <li><code>&lt;tr&gt;&lt;/tr&gt;</code> - Defines a table row.</li>
+        <li><code>&lt;th&gt;&lt;/th&gt;</code> - Defines a header cell (for table headings).</li>
+        <li><code>&lt;td&gt;&lt;/td&gt;</code> - Defines a table data cell (for regular data).</li>
+    </ul>
+
+    <h3>Example of a Table:</h3>
+    <table>
+        <caption>Example Table</caption>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>$2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>$1</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total Price</td>
+                <td>$15</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3>Cell Spanning in HTML Tables:</h3>
+    <p>In HTML, you can span cells in both column and row directions.</p>
+
+    <h4>1. <code>colspan</code>:</h4>
+    <p><strong>colspan</strong> is used to span cells across multiple columns.</p>
+    <div class="example">
+        <pre><code>&lt;td colspan="2"&gt;Total Price&lt;/td&gt;</code></pre>
+    </div>
+
+    <h4>2. <code>rowspan</code>:</h4>
+    <p><strong>rowspan</strong> is used to span cells across multiple rows.</p>
+    <div class="example">
+        <pre><code>&lt;td rowspan="2"&gt;Cell Spanning&lt;/td&gt;</code></pre>
+    </div>
+
+    <h3>Example with Colspan and Rowspan:</h3>
+    <table>
+        <caption>Table with Spanning</caption>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>$2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>$1</td>
+                <td rowspan="2">$8</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>$10</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Other Table Elements:</h3>
+    <ul>
+        <li><strong><code>&lt;thead&gt;</code></strong> - Defines the header section of the table.</li>
+        <li><strong><code>&lt;tbody&gt;</code></strong> - Defines the body section of the table.</li>
+        <li><strong><code>&lt;tfoot&gt;</code></strong> - Defines the footer section of the table.</li>
+    </ul>
+
+    <h3>Example Table with Header, Body, and Footer:</h3>
+    <table>
+        <caption>Complete Table with Header, Body, and Footer</caption>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>$2</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>$1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total Price</td>
+                <td>$3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3>Remove Double Border in Tables:</h3>
+    <p>To remove the double border and change it to a single line, use the <code>rules="all"</code> attribute in the <code>&lt;table&gt;</code> tag.</p>
+
+</body>
+</html>
