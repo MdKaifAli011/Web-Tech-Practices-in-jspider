@@ -1,4 +1,7 @@
 # Tag in HTML:-
+What is a Tag in HTML?
+
+A tag in HTML is a special keyword inside angle brackets (<>) used to create web pages.
 
 Keyword enclosed by angular brakets is known as opening or starting of a tag.
 
