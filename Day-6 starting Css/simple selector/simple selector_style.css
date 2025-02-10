@@ -1,0 +1,30 @@
+/* Simple selector */
+*{
+    background-color: gray;
+    font-family: monospace;
+}
+
+
+
+#heading{
+    background-color:red;
+}
+.subheading{
+    background-color:yellow;
+}
+.sub{
+    color : red;
+}
+
+div{
+    background-color: black;
+    color: white;
+}
+
+p,span,section{
+    background-color: violet;
+    color:white;
+}
+/* #para,.content{
+    background-color: aqua;
+} */

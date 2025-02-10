@@ -1,0 +1,19 @@
+/* decendent selector : direct as well as indirect chid */
+section div{
+    background-color: red;
+}
+
+/* (> chid) */
+section>div{
+    background-color: yellow;   
+}
+/* (~ Genreal_sibiling) */
+section~div{
+    background-color: black;
+    color: white;
+}
+
+/* (+ adjacent) */
+section+p{
+    background-color: brown ;
+}
