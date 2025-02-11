@@ -1,0 +1,27 @@
+p::first-line{
+    color:red;
+
+}
+p::first-letter{
+    font-size: xx-large;
+    color: blue;
+}
+p::selection{
+    background-color: aqua;
+}
+h1::before{
+    content: "💗";
+}
+h1::after{
+    content: "💗";
+}
+
+ul>li::marker{
+    color: red;
+}
+/* it is use to select universal design */
+/* ::marker{
+    color: red;
+}
+
+ */

@@ -15,3 +15,30 @@ v)Attribute selector
 
 
 (+ adjacent)-----> is use to target after the closing the only one tag
+
+
+
+iii)Pseudo class selector ----------->> IS DENOTE BY ':'
+        link-----> anchor --------------> colour the link
+        active-----> anchor/button -------------> colour the active colour of anchar tag and button tag
+        visited-----> anchor ---------------------> colour the visited of anchar tag
+        firstchild
+        nth-child
+        lastchild
+        hover---------->
+        first-of-type
+        last-of-type
+        nth-of-type()
+
+
+
+iv)Pseudo elements selector -------> it is denoted by '::'
+        ::first-line
+        ::first-latter
+        ::after
+        ::before
+        ::selection
+        ::marker
+    
+
+
