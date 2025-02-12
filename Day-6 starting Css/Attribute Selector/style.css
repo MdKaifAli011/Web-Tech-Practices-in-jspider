@@ -1,0 +1,35 @@
+h2[name]{
+    background-color:yellow;
+}
+h2[name="subheading2"]{
+    background-color:black;
+    color: white;
+}
+
+h2[name |="sub"]{
+    background-color:rgb(213, 18, 18);
+    color: white;
+}
+/* space seprate value ~ ~ */
+h2[name~="first"]{
+    background-color:rgb(96, 18, 213);
+    color: white;
+}
+
+/* ^ this is use for select the charater from staring with*/
+h2[name^="st"]{
+    background-color:rgb(99, 213, 18);
+    color: white;
+}
+
+/* ^ this is use for select the charater from end with */
+h2[name$="st"]{
+    background-color:rgb(213, 193, 18);
+    color: rgb(11, 10, 10);
+}
+
+/* (*) this is use for select the charater from any where  */
+h2[name*="time"]{
+    background-color:rgb(103, 18, 213);
+    color: rgb(230, 223, 223);
+}

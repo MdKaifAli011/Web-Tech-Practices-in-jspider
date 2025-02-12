@@ -42,3 +42,4 @@ iv)Pseudo elements selector -------> it is denoted by '::'
     
 
 
+v)Attribute selector--------------->
